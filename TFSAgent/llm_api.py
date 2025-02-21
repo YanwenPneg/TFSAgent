@@ -1,13 +1,6 @@
 """
-LLM Interface 模块
--------------------
-本模块实现了一个基于 OpenAI API 的 LLM 查询接口。
-函数 query_llm 接受一个 prompt 字符串（应另外传入，包含上下文信息），
-并构造符合 OpenAI ChatCompletion API 格式的消息列表，调用 OpenAI API 获取回复。
-
-注意：
-  - 请确保环境变量中已配置 OPENAI_API_KEY（必填）和 OPENAI_BASE_URL（可选）。
-    OPENAI_BASE_URL 默认为 "https://api.openai.com/v1"。
+LLM Interface
+api 调用,openai api格式
 """
 
 import os
